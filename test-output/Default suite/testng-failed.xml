@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNGImplementation.CreateNewContactTest">
+      <class name="testNGImplementation.DataProviderCreateOrgTest">
         <methods>
           <include name="methodSetUp"/>
           <include name="testSetup"/>
+          <include name="createOrganizationTest" invocation-numbers="1"/>
           <include name="methodTearDown"/>
           <include name="testTearDown"/>
           <include name="classSetUp"/>
           <include name="classTearDown"/>
-          <include name="CreateNewContact"/>
         </methods>
-      </class> <!-- testNGImplementation.CreateNewContactTest -->
+      </class> <!-- testNGImplementation.DataProviderCreateOrgTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
