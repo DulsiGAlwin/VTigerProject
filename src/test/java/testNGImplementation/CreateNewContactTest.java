@@ -10,7 +10,7 @@ import genericLibrary.AutoConstantPath;
 import genericLibrary.BaseClass;
 
 public class CreateNewContactTest extends BaseClass {
-	@Test
+	@Test(priority = 2)
 	public  void CreateNewContact(){
 		SoftAssert soft = new SoftAssert();
 		home.clickContactsTab();

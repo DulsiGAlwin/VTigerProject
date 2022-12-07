@@ -9,7 +9,7 @@ import genericLibrary.AutoConstantPath;
 import genericLibrary.BaseClass;
 
 public class CreateOrganisationTest extends BaseClass {
-	@Test
+	@Test(priority = 1)
 	public void createOrganizationTest(){
 
 		SoftAssert soft = new SoftAssert();

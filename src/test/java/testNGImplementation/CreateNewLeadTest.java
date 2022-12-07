@@ -11,7 +11,7 @@ import genericLibrary.AutoConstantPath;
 import genericLibrary.BaseClass;
 
 public class CreateNewLeadTest extends BaseClass{
-	@Test
+	@Test(priority = 3)
 	public  void CteateNewLead() {
 		SoftAssert soft = new SoftAssert();
 		home.clickLeaadTab();
